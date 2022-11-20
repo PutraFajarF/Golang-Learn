@@ -1,20 +1,19 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
-func main() {
-	var input string
-	fmt.Println("Please input words: ")
-	fmt.Scan(&input)
-	res := isPalindrome(input)
-	if res {
-		fmt.Println("true")
-	} else {
-		fmt.Println("false")
-	}
+// func main() {
+// 	var input string
+// 	fmt.Println("Please input words: ")
+// 	fmt.Scan(&input)
+// 	res := isPalindrome(input)
+// 	if res {
+// 		fmt.Println("true")
+// 	} else {
+// 		fmt.Println("false")
+// 	}
 }
 
 func isPalindrome(input string) bool {
